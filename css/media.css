@@ -1,0 +1,56 @@
+@media (max-width: 590px) {
+  .header-content {
+    padding: 0 3rem;
+  }
+  .category-content {
+    padding: 0 3rem;
+  }
+  .compatibility-content {
+    padding: 0 3rem;
+  }
+  .support-content {
+    padding: 0 3rem;
+  }
+  .features-content {
+    padding: 0 3rem;
+  }
+  .send-content {
+    padding: 0 3rem;
+  }
+  .just-content {
+    padding: 0 3rem;
+  }
+  .platform-container {
+    padding: 0 3rem;
+  }
+  .footer-content {
+    padding: 0 3rem;
+  }
+
+  /* ------------------------------- */
+
+  .nav-item:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  .header-content p::before,
+  .header-content p::after {
+    position: absolute;
+    top: 50%;
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #f8f8f8;
+  }
+
+  .header-content p::before {
+    left: -15%;
+  }
+  .header-content p::after {
+    right: -15%;
+  }
+}
